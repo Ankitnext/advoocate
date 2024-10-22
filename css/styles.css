@@ -519,3 +519,17 @@ marquee {
   width: 100vh;
   position: relative;
 }
+
+#lgg {
+  height: 1em;
+  border-radius: 50%;
+  border: 9px solid orange;
+
+}
+
+#lggg {
+  height: 10em;
+  border-radius: 50%;
+  border: 9px solid orange;
+
+}
