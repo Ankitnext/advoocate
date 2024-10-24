@@ -115,13 +115,15 @@ padding: 30px 0;
 }
 
 .bg-image {
-  height: 100vh;
+  height: 80rem;
+  
   /*  background: url('../Images/bg-1.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat; */
 
   background: url("../Images/Ipr_logo.jpg") no-repeat center center/cover;
+  /* background-size: cover; */
 }
 
 .bg-image1 {
@@ -159,7 +161,7 @@ padding: 30px 0;
 
 #showcase {
   background: rgba(15, 15, 15, 0.527);
-  height: 100vh;
+  height: 80em;
 }
 
 
@@ -488,7 +490,7 @@ padding: 30px 0;
 
 marquee {
   margin-top: 20%;
-  font-size: 1000%;
+  font-size: 300%;
   
 }
 
@@ -528,8 +530,9 @@ marquee {
 }
 
 #lggg {
-  height: 10em;
+  height: 2em;
   border-radius: 50%;
-  border: 9px solid orange;
+  border: 2px solid orange;
+  margin-left: 5%;
 
 }
