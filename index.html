@@ -7,6 +7,33 @@
     <title>VishwaJyoti IPR Solutions</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=calendar_month" />
     <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      .cookie-consent {
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background-color: rgba(0, 0, 0, 0.8);
+          color: white;
+          padding: 20px;
+          text-align: center;
+          display: none;
+      }
+
+      .cookie-consent button {
+          padding: 10px 20px;
+          margin: 10px;
+          cursor: pointer;
+          background-color: #4CAF50; /* Green */
+          color: white;
+          border: none;
+          border-radius: 5px;
+      }
+
+      .cookie-consent button:hover {
+          background-color: #45a049;
+      }
+  </style>
   </head>
   <body>
     <header>
@@ -230,11 +257,40 @@ The Firm is dedicated towards protection of Intellectual Properties and is commi
 
     <div class="clear-floats"></div>
 
-    
+    <div class="cookie-consent" id="cookieConsent">
+      <h2>DISCLAIMER & CONFIRMATION</h2>
+      <p>By clicking "I agree" below, the user acknowledges the following:
+
+        There has been no advertisement, personal communication, solicitation, invitation, or inducement of any kind from us or our members to seek work through this website.
+        
+        The user intends to obtain information about us for their own general knowledge and use. The content provided on this website is solely at the user's request for informational purposes and should not be seen as solicitation or advertising.
+        
+        We do not accept any liability for actions taken by the user based on the materials or information provided on this website. Users with legal issues should always seek independent legal counsel.</p>
+      <button id="acceptBtn">Accept</button>
+      <button id="declineBtn">Decline</button>
+  </div>
 
     <footer id="main-footer">
       <p>VishwaJyoti IPR Solutions &copy; 2022, All Rights Reserved</p>
     </footer>
+
+    <script>
+      window.onload = function() {
+          var cookieConsent = document.getElementById('cookieConsent');
+          cookieConsent.style.display = 'block';
+
+          document.getElementById('acceptBtn').addEventListener('click', function() {
+              cookieConsent.style.display = 'none';
+              // alert('Cookies accepted.'); // Replace this with your actual action
+              // window.location.href = 'https://www.example.com';
+          });
+
+          document.getElementById('declineBtn').addEventListener('click', function() {
+              cookieConsent.style.display = 'none';
+              // alert('Cookies declined.'); // Replace this with your actual action
+          });
+      }
+  </script>
     
   </body>
 </html>
