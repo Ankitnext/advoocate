@@ -115,14 +115,14 @@ padding: 30px 0;
 }
 
 .bg-image {
-  height: 80rem;
+  height: 100vh;
   
   /*  background: url('../Images/bg-1.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat; */
 
-  background: url("../Images/adv_7.jpg") no-repeat center center/cover;
+  background: url("../Images/adv_4.jpg") no-repeat center center/cover;
   /* background-size: cover; */
 }
 
@@ -161,7 +161,7 @@ padding: 30px 0;
 
 #showcase {
   background: rgba(15, 15, 15, 0.527);
-  height: 80em;
+  height: 100vh;
 }
 
 
