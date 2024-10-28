@@ -261,7 +261,7 @@ padding: 30px 0;
   height: 100%;
   width: 50%;
   background: url("../Images/adv_4.jpg") no-repeat center center/cover;
-  
+  order: 2;
  
 }
 
